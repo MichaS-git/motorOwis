@@ -1,6 +1,6 @@
 # motorOwis Releases
 
-## __R1-0 (2019-04-18)__
+## __R1-0 (2022-07-15)__
 R1-0 is a release based on the master branch.
 
 #### New features
