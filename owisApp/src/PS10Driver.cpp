@@ -140,8 +140,7 @@ asynStatus PS10Controller::writeReadController(const char *output, char *input,
                                          strlen(output), input, maxChars, timeout,
                                          &nwrite, nread, &eomReason);
 
-    printf("break \n");
-    epicsThreadSleep(0.5);
+    epicsThreadSleep(0.05);
 
     return status;
 }
