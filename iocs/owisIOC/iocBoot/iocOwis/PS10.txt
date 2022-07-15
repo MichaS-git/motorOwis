@@ -1,0 +1,459 @@
+2022/07/15 09:54:52.559 asynOctetSyncIO wrote:
+2022/07/15 09:54:54.568 asynOctetSyncIO wrote:
+?ASTAT
+2022/07/15 09:54:54.568 asynOctetSyncIO read:
+R
+2022/07/15 09:54:54.568 asynOctetSyncIO wrote:
+?ASTAT
+2022/07/15 09:54:54.570 asynOctetSyncIO wrote:
+?CNT1
+2022/07/15 09:54:54.570 asynOctetSyncIO read:
+0
+2022/07/15 09:54:54.570 asynOctetSyncIO wrote:
+?ASTAT
+2022/07/15 09:54:54.571 asynOctetSyncIO read:
+R
+2022/07/15 09:54:54.671 asynOctetSyncIO wrote:
+?CNT1
+2022/07/15 09:54:54.672 asynOctetSyncIO read:
+0
+2022/07/15 09:54:54.672 asynOctetSyncIO wrote:
+?ASTAT
+2022/07/15 09:54:54.673 asynOctetSyncIO read:
+R
+2022/07/15 09:54:54.773 asynOctetSyncIO wrote:
+?CNT1
+2022/07/15 09:54:54.774 asynOctetSyncIO read:
+0
+2022/07/15 09:54:54.774 asynOctetSyncIO wrote:
+?ASTAT
+2022/07/15 09:54:54.775 asynOctetSyncIO read:
+R
+2022/07/15 09:55:33.365 asynOctetSyncIO wrote:
+PVEL1=25000
+2022/07/15 09:55:33.366 asynOctetSyncIO wrote:
+ACC1=245000
+2022/07/15 09:55:33.366 asynOctetSyncIO wrote:
+ABSOL1
+2022/07/15 09:55:33.366 asynOctetSyncIO wrote:
+PSET1=25000
+2022/07/15 09:55:33.366 asynOctetSyncIO wrote:
+PGO1
+2022/07/15 09:55:33.366 asynOctetSyncIO wrote:
+?CNT1
+2022/07/15 09:55:33.369 asynOctetSyncIO read:
+0
+2022/07/15 09:55:33.369 asynOctetSyncIO wrote:
+?ASTAT
+2022/07/15 09:55:33.370 asynOctetSyncIO read:
+R
+2022/07/15 09:55:33.370 asynOctetSyncIO wrote:
+PVEL1=25000
+2022/07/15 09:55:33.371 asynOctetSyncIO wrote:
+ACC1=245000
+2022/07/15 09:55:33.371 asynOctetSyncIO wrote:
+ABSOL1
+2022/07/15 09:55:33.371 asynOctetSyncIO wrote:
+PSET1=25000
+2022/07/15 09:55:33.371 asynOctetSyncIO wrote:
+PGO1
+2022/07/15 09:55:33.371 asynOctetSyncIO wrote:
+?CNT1
+2022/07/15 09:55:33.374 asynOctetSyncIO read:
+0
+2022/07/15 09:55:33.374 asynOctetSyncIO wrote:
+?ASTAT
+2022/07/15 09:55:33.375 asynOctetSyncIO read:
+R
+2022/07/15 09:55:33.375 asynOctetSyncIO wrote:
+PVEL1=25000
+2022/07/15 09:55:33.375 asynOctetSyncIO wrote:
+ACC1=245000
+2022/07/15 09:55:33.375 asynOctetSyncIO wrote:
+ABSOL1
+2022/07/15 09:55:33.375 asynOctetSyncIO wrote:
+PSET1=25000
+2022/07/15 09:55:33.376 asynOctetSyncIO wrote:
+PGO1
+2022/07/15 09:55:33.376 asynOctetSyncIO wrote:
+?CNT1
+2022/07/15 09:55:33.379 asynOctetSyncIO read:
+0
+2022/07/15 09:55:33.379 asynOctetSyncIO wrote:
+?ASTAT
+2022/07/15 09:55:33.380 asynOctetSyncIO read:
+R
+2022/07/15 09:55:33.380 asynOctetSyncIO wrote:
+PVEL1=25000
+2022/07/15 09:55:33.380 asynOctetSyncIO wrote:
+ACC1=245000
+2022/07/15 09:55:33.380 asynOctetSyncIO wrote:
+ABSOL1
+2022/07/15 09:55:33.380 asynOctetSyncIO wrote:
+PSET1=25000
+2022/07/15 09:55:33.380 asynOctetSyncIO wrote:
+PGO1
+2022/07/15 09:55:33.381 asynOctetSyncIO wrote:
+?CNT1
+2022/07/15 09:55:33.384 asynOctetSyncIO read:
+0
+2022/07/15 09:55:33.384 asynOctetSyncIO wrote:
+?ASTAT
+2022/07/15 09:55:33.385 asynOctetSyncIO read:
+R
+2022/07/15 09:55:33.385 asynOctetSyncIO wrote:
+PVEL1=25000
+2022/07/15 09:55:33.385 asynOctetSyncIO wrote:
+ACC1=245000
+2022/07/15 09:55:33.385 asynOctetSyncIO wrote:
+ABSOL1
+2022/07/15 09:55:33.385 asynOctetSyncIO wrote:
+PSET1=25000
+2022/07/15 09:55:33.385 asynOctetSyncIO wrote:
+PGO1
+2022/07/15 09:55:33.385 asynOctetSyncIO wrote:
+?CNT1
+2022/07/15 09:55:33.389 asynOctetSyncIO read:
+0
+2022/07/15 09:55:33.389 asynOctetSyncIO wrote:
+?ASTAT
+2022/07/15 09:55:33.389 asynOctetSyncIO read:
+R
+2022/07/15 09:55:33.390 asynOctetSyncIO wrote:
+PVEL1=25000
+2022/07/15 09:55:33.390 asynOctetSyncIO wrote:
+ACC1=245000
+2022/07/15 09:55:33.390 asynOctetSyncIO wrote:
+ABSOL1
+2022/07/15 09:55:33.390 asynOctetSyncIO wrote:
+PSET1=25000
+2022/07/15 09:55:33.390 asynOctetSyncIO wrote:
+PGO1
+2022/07/15 09:55:33.390 asynOctetSyncIO wrote:
+?CNT1
+2022/07/15 09:55:33.393 asynOctetSyncIO read:
+0
+2022/07/15 09:55:33.394 asynOctetSyncIO wrote:
+?ASTAT
+2022/07/15 09:55:33.394 asynOctetSyncIO read:
+R
+2022/07/15 09:55:33.394 asynOctetSyncIO wrote:
+PVEL1=25000
+2022/07/15 09:55:33.395 asynOctetSyncIO wrote:
+ACC1=245000
+2022/07/15 09:55:33.395 asynOctetSyncIO wrote:
+ABSOL1
+2022/07/15 09:55:33.395 asynOctetSyncIO wrote:
+PSET1=25000
+2022/07/15 09:55:33.395 asynOctetSyncIO wrote:
+PGO1
+2022/07/15 09:55:33.395 asynOctetSyncIO wrote:
+?CNT1
+2022/07/15 09:55:33.398 asynOctetSyncIO read:
+0
+2022/07/15 09:55:33.398 asynOctetSyncIO wrote:
+?ASTAT
+2022/07/15 09:55:33.399 asynOctetSyncIO read:
+R
+2022/07/15 09:55:33.399 asynOctetSyncIO wrote:
+PVEL1=25000
+2022/07/15 09:55:33.399 asynOctetSyncIO wrote:
+ACC1=245000
+2022/07/15 09:55:33.400 asynOctetSyncIO wrote:
+ABSOL1
+2022/07/15 09:55:33.400 asynOctetSyncIO wrote:
+PSET1=25000
+2022/07/15 09:55:33.400 asynOctetSyncIO wrote:
+PGO1
+2022/07/15 09:55:33.400 asynOctetSyncIO wrote:
+?CNT1
+2022/07/15 09:55:33.403 asynOctetSyncIO read:
+0
+2022/07/15 09:55:33.403 asynOctetSyncIO wrote:
+?ASTAT
+2022/07/15 09:55:33.404 asynOctetSyncIO read:
+R
+2022/07/15 09:55:33.404 asynOctetSyncIO wrote:
+PVEL1=25000
+2022/07/15 09:55:33.404 asynOctetSyncIO wrote:
+ACC1=245000
+2022/07/15 09:55:33.404 asynOctetSyncIO wrote:
+ABSOL1
+2022/07/15 09:55:33.404 asynOctetSyncIO wrote:
+PSET1=25000
+2022/07/15 09:55:33.404 asynOctetSyncIO wrote:
+PGO1
+2022/07/15 09:55:33.405 asynOctetSyncIO wrote:
+?CNT1
+2022/07/15 09:55:33.408 asynOctetSyncIO read:
+0
+2022/07/15 09:55:33.408 asynOctetSyncIO wrote:
+?ASTAT
+2022/07/15 09:55:33.409 asynOctetSyncIO read:
+R
+2022/07/15 09:55:33.409 asynOctetSyncIO wrote:
+PVEL1=25000
+2022/07/15 09:55:33.409 asynOctetSyncIO wrote:
+ACC1=245000
+2022/07/15 09:55:33.409 asynOctetSyncIO wrote:
+ABSOL1
+2022/07/15 09:55:33.409 asynOctetSyncIO wrote:
+PSET1=25000
+2022/07/15 09:55:33.409 asynOctetSyncIO wrote:
+PGO1
+2022/07/15 09:55:33.410 asynOctetSyncIO wrote:
+?CNT1
+2022/07/15 09:55:33.413 asynOctetSyncIO read:
+0
+2022/07/15 09:55:33.413 asynOctetSyncIO wrote:
+?ASTAT
+2022/07/15 09:55:33.413 asynOctetSyncIO read:
+R
+2022/07/15 09:55:33.414 asynOctetSyncIO wrote:
+PVEL1=25000
+2022/07/15 09:55:33.414 asynOctetSyncIO wrote:
+ACC1=245000
+2022/07/15 09:55:33.414 asynOctetSyncIO wrote:
+ABSOL1
+2022/07/15 09:55:33.414 asynOctetSyncIO wrote:
+PSET1=25000
+2022/07/15 09:55:33.414 asynOctetSyncIO wrote:
+PGO1
+2022/07/15 09:55:33.414 asynOctetSyncIO wrote:
+?CNT1
+2022/07/15 09:55:33.417 asynOctetSyncIO read:
+0
+2022/07/15 09:55:33.418 asynOctetSyncIO wrote:
+?ASTAT
+2022/07/15 09:55:33.418 asynOctetSyncIO read:
+R
+2022/07/15 09:55:33.519 asynOctetSyncIO wrote:
+?CNT1
+2022/07/15 09:55:33.519 asynOctetSyncIO read:
+0
+2022/07/15 09:55:33.519 asynOctetSyncIO wrote:
+?ASTAT
+2022/07/15 09:55:33.520 asynOctetSyncIO read:
+R
+2022/07/15 09:55:33.629 asynOctetSyncIO wrote:
+?CNT1
+2022/07/15 09:55:33.629 asynOctetSyncIO read:
+0
+2022/07/15 09:55:33.629 asynOctetSyncIO wrote:
+?ASTAT
+2022/07/15 09:55:33.630 asynOctetSyncIO read:
+R
+2022/07/15 09:55:38.753 asynOctetSyncIO wrote:
+PVEL1=25000
+2022/07/15 09:55:38.753 asynOctetSyncIO wrote:
+ACC1=245000
+2022/07/15 09:55:38.753 asynOctetSyncIO wrote:
+ABSOL1
+2022/07/15 09:55:38.754 asynOctetSyncIO wrote:
+PSET1=25000
+2022/07/15 09:55:38.754 asynOctetSyncIO wrote:
+PGO1
+2022/07/15 09:55:38.754 asynOctetSyncIO wrote:
+?CNT1
+2022/07/15 09:55:38.757 asynOctetSyncIO read:
+0
+2022/07/15 09:55:38.757 asynOctetSyncIO wrote:
+?ASTAT
+2022/07/15 09:55:38.757 asynOctetSyncIO read:
+R
+2022/07/15 09:55:38.758 asynOctetSyncIO wrote:
+PVEL1=25000
+2022/07/15 09:55:38.758 asynOctetSyncIO wrote:
+ACC1=245000
+2022/07/15 09:55:38.758 asynOctetSyncIO wrote:
+ABSOL1
+2022/07/15 09:55:38.758 asynOctetSyncIO wrote:
+PSET1=25000
+2022/07/15 09:55:38.758 asynOctetSyncIO wrote:
+PGO1
+2022/07/15 09:55:38.758 asynOctetSyncIO wrote:
+?CNT1
+2022/07/15 09:55:38.762 asynOctetSyncIO read:
+0
+2022/07/15 09:55:38.762 asynOctetSyncIO wrote:
+?ASTAT
+2022/07/15 09:55:38.762 asynOctetSyncIO read:
+R
+2022/07/15 09:55:38.762 asynOctetSyncIO wrote:
+PVEL1=25000
+2022/07/15 09:55:38.762 asynOctetSyncIO wrote:
+ACC1=245000
+2022/07/15 09:55:38.763 asynOctetSyncIO wrote:
+ABSOL1
+2022/07/15 09:55:38.763 asynOctetSyncIO wrote:
+PSET1=25000
+2022/07/15 09:55:38.763 asynOctetSyncIO wrote:
+PGO1
+2022/07/15 09:55:38.763 asynOctetSyncIO wrote:
+?CNT1
+2022/07/15 09:55:38.766 asynOctetSyncIO read:
+0
+2022/07/15 09:55:38.766 asynOctetSyncIO wrote:
+?ASTAT
+2022/07/15 09:55:38.767 asynOctetSyncIO read:
+R
+2022/07/15 09:55:38.767 asynOctetSyncIO wrote:
+PVEL1=25000
+2022/07/15 09:55:38.767 asynOctetSyncIO wrote:
+ACC1=245000
+2022/07/15 09:55:38.767 asynOctetSyncIO wrote:
+ABSOL1
+2022/07/15 09:55:38.768 asynOctetSyncIO wrote:
+PSET1=25000
+2022/07/15 09:55:38.768 asynOctetSyncIO wrote:
+PGO1
+2022/07/15 09:55:38.768 asynOctetSyncIO wrote:
+?CNT1
+2022/07/15 09:55:38.771 asynOctetSyncIO read:
+0
+2022/07/15 09:55:38.771 asynOctetSyncIO wrote:
+?ASTAT
+2022/07/15 09:55:38.772 asynOctetSyncIO read:
+R
+2022/07/15 09:55:38.772 asynOctetSyncIO wrote:
+PVEL1=25000
+2022/07/15 09:55:38.772 asynOctetSyncIO wrote:
+ACC1=245000
+2022/07/15 09:55:38.772 asynOctetSyncIO wrote:
+ABSOL1
+2022/07/15 09:55:38.772 asynOctetSyncIO wrote:
+PSET1=25000
+2022/07/15 09:55:38.773 asynOctetSyncIO wrote:
+PGO1
+2022/07/15 09:55:38.773 asynOctetSyncIO wrote:
+?CNT1
+2022/07/15 09:55:38.776 asynOctetSyncIO read:
+0
+2022/07/15 09:55:38.776 asynOctetSyncIO wrote:
+?ASTAT
+2022/07/15 09:55:38.777 asynOctetSyncIO read:
+R
+2022/07/15 09:55:38.777 asynOctetSyncIO wrote:
+PVEL1=25000
+2022/07/15 09:55:38.777 asynOctetSyncIO wrote:
+ACC1=245000
+2022/07/15 09:55:38.778 asynOctetSyncIO wrote:
+ABSOL1
+2022/07/15 09:55:38.778 asynOctetSyncIO wrote:
+PSET1=25000
+2022/07/15 09:55:38.778 asynOctetSyncIO wrote:
+PGO1
+2022/07/15 09:55:38.778 asynOctetSyncIO wrote:
+?CNT1
+2022/07/15 09:55:38.781 asynOctetSyncIO read:
+0
+2022/07/15 09:55:38.781 asynOctetSyncIO wrote:
+?ASTAT
+2022/07/15 09:55:38.782 asynOctetSyncIO read:
+R
+2022/07/15 09:55:38.782 asynOctetSyncIO wrote:
+PVEL1=25000
+2022/07/15 09:55:38.782 asynOctetSyncIO wrote:
+ACC1=245000
+2022/07/15 09:55:38.782 asynOctetSyncIO wrote:
+ABSOL1
+2022/07/15 09:55:38.783 asynOctetSyncIO wrote:
+PSET1=25000
+2022/07/15 09:55:38.783 asynOctetSyncIO wrote:
+PGO1
+2022/07/15 09:55:38.783 asynOctetSyncIO wrote:
+?CNT1
+2022/07/15 09:55:38.786 asynOctetSyncIO read:
+0
+2022/07/15 09:55:38.786 asynOctetSyncIO wrote:
+?ASTAT
+2022/07/15 09:55:38.787 asynOctetSyncIO read:
+R
+2022/07/15 09:55:38.787 asynOctetSyncIO wrote:
+PVEL1=25000
+2022/07/15 09:55:38.787 asynOctetSyncIO wrote:
+ACC1=245000
+2022/07/15 09:55:38.788 asynOctetSyncIO wrote:
+ABSOL1
+2022/07/15 09:55:38.788 asynOctetSyncIO wrote:
+PSET1=25000
+2022/07/15 09:55:38.788 asynOctetSyncIO wrote:
+PGO1
+2022/07/15 09:55:38.788 asynOctetSyncIO wrote:
+?CNT1
+2022/07/15 09:55:38.791 asynOctetSyncIO read:
+0
+2022/07/15 09:55:38.791 asynOctetSyncIO wrote:
+?ASTAT
+2022/07/15 09:55:38.792 asynOctetSyncIO read:
+R
+2022/07/15 09:55:38.792 asynOctetSyncIO wrote:
+PVEL1=25000
+2022/07/15 09:55:38.792 asynOctetSyncIO wrote:
+ACC1=245000
+2022/07/15 09:55:38.792 asynOctetSyncIO wrote:
+ABSOL1
+2022/07/15 09:55:38.793 asynOctetSyncIO wrote:
+PSET1=25000
+2022/07/15 09:55:38.793 asynOctetSyncIO wrote:
+PGO1
+2022/07/15 09:55:38.793 asynOctetSyncIO wrote:
+?CNT1
+2022/07/15 09:55:38.796 asynOctetSyncIO read:
+0
+2022/07/15 09:55:38.796 asynOctetSyncIO wrote:
+?ASTAT
+2022/07/15 09:55:38.797 asynOctetSyncIO read:
+R
+2022/07/15 09:55:38.797 asynOctetSyncIO wrote:
+PVEL1=25000
+2022/07/15 09:55:38.798 asynOctetSyncIO wrote:
+ACC1=245000
+2022/07/15 09:55:38.798 asynOctetSyncIO wrote:
+ABSOL1
+2022/07/15 09:55:38.798 asynOctetSyncIO wrote:
+PSET1=25000
+2022/07/15 09:55:38.798 asynOctetSyncIO wrote:
+PGO1
+2022/07/15 09:55:38.798 asynOctetSyncIO wrote:
+?CNT1
+2022/07/15 09:55:38.801 asynOctetSyncIO read:
+0
+2022/07/15 09:55:38.801 asynOctetSyncIO wrote:
+?ASTAT
+2022/07/15 09:55:38.802 asynOctetSyncIO read:
+R
+2022/07/15 09:55:38.802 asynOctetSyncIO wrote:
+PVEL1=25000
+2022/07/15 09:55:38.803 asynOctetSyncIO wrote:
+ACC1=245000
+2022/07/15 09:55:38.803 asynOctetSyncIO wrote:
+ABSOL1
+2022/07/15 09:55:38.803 asynOctetSyncIO wrote:
+PSET1=25000
+2022/07/15 09:55:38.803 asynOctetSyncIO wrote:
+PGO1
+2022/07/15 09:55:38.803 asynOctetSyncIO wrote:
+?CNT1
+2022/07/15 09:55:38.806 asynOctetSyncIO read:
+0
+2022/07/15 09:55:38.806 asynOctetSyncIO wrote:
+?ASTAT
+2022/07/15 09:55:38.807 asynOctetSyncIO read:
+R
+2022/07/15 09:55:38.908 asynOctetSyncIO wrote:
+?CNT1
+2022/07/15 09:55:38.909 asynOctetSyncIO read:
+0
+2022/07/15 09:55:38.909 asynOctetSyncIO wrote:
+?ASTAT
+2022/07/15 09:55:38.909 asynOctetSyncIO read:
+R
+2022/07/15 09:55:39.018 asynOctetSyncIO wrote:
+?CNT1
+2022/07/15 09:55:39.019 asynOctetSyncIO read:
+0
+2022/07/15 09:55:39.019 asynOctetSyncIO wrote:
+?ASTAT
+2022/07/15 09:55:39.020 asynOctetSyncIO read:
+R

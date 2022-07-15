@@ -113,6 +113,39 @@ PS10Axis* PS10Controller::getAxis(int axisNo)
     return static_cast<PS10Axis*>(asynMotorController::getAxis(axisNo));
 }
 
+/** Writes a string to the controller and reads the response.
+  * Calls writeReadController() with default locations of the input and output strings
+  * and default timeout. */
+asynStatus PS10Controller::writeReadController()
+{
+    size_t nread;
+    return writeReadController(outString_, inString_, sizeof(inString_), &nread, DEFAULT_CONTROLLER_TIMEOUT);
+}
+
+/** Writes a string to the controller and reads a response.
+  * \param[in] output Pointer to the output string.
+  * \param[out] input Pointer to the input string location.
+  * \param[in] maxChars Size of the input buffer.
+  * \param[out] nread Number of characters read.
+  * \param[out] timeout Timeout before returning an error.*/
+asynStatus PS10Controller::writeReadController(const char *output, char *input,
+        size_t maxChars, size_t *nread, double timeout)
+{
+    size_t nwrite;
+    asynStatus status;
+    int eomReason;
+    // const char *functionName="writeReadController";
+
+    status = pasynOctetSyncIO->writeRead(pasynUserController_, output,
+                                         strlen(output), input, maxChars, timeout,
+                                         &nwrite, nread, &eomReason);
+
+    printf("break \n");
+    epicsThreadSleep(0.5);
+
+    return status;
+}
+
 
 // These are the PS10Axis methods
 

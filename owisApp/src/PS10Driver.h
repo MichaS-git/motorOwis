@@ -46,9 +46,13 @@ class PS10Controller : public asynMotorController
 public:
     PS10Controller(const char *portName, const char *PS10PortName, int numAxes, double movingPollPeriod, double idlePollPeriod);
 
+
+    /* These are the methods that we override from asynMotorDriver */
     void report(FILE *fp, int level);
     PS10Axis* getAxis(asynUser *pasynUser);
     PS10Axis* getAxis(int axisNo);
+    asynStatus writeReadController();
+    asynStatus writeReadController(const char *output, char *input, size_t maxChars, size_t *nread, double timeout);
 
     friend class PS10Axis;
 };
