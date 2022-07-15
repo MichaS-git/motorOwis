@@ -16,9 +16,9 @@ asynOctetSetInputEos("serial1",0,"\r")
 asynOctetSetOutputEos("serial1",0,"\r")
 
 # Turn on asyn traces
-asynSetTraceIOMask("serial1",0,0x1)
-asynSetTraceMask("serial1",0,0x3)
-asynSetTraceFile("serial1",0,"PS10_epicsThreadSleep.txt")
+#asynSetTraceIOMask("serial1",0,0x1)
+#asynSetTraceMask("serial1",0,0x3)
+#asynSetTraceFile("serial1",0,"PS10.txt")
 
 ###
 # PS10CreateController(
@@ -28,7 +28,7 @@ asynSetTraceFile("serial1",0,"PS10_epicsThreadSleep.txt")
 #    moving poll period (ms),
 #    idle poll period (ms),
 ###
-PS10CreateController("ps10_1", "serial1", 1, 500, 0)
+PS10CreateController("ps10_1", "serial1", 1, 100, 0)
 
 # Turn off asyn traces
 #asynSetTraceIOMask("serial1",0,0x0)

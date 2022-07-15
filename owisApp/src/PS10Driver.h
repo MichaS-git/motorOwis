@@ -32,10 +32,8 @@ private:
     PS10Controller *pC_;          /**< Pointer to the asynMotorController to which this axis belongs.
                                    *   Abbreviated because it is used very frequently */
     int axisIndex_;    /* Numbered from 1 */
-    //char versionStr_[256];  /* Software-Version string */
-    //int motorType_;         /* Motor Type: 0 = DC brush; 1 = stepper motor open-loop */
+    int motorType_;    /* Motor Type: 0 = DC brush; 1 = stepper motor open-loop */
     bool velocityMode;
-    //double axisRes_;
     asynStatus sendAccelAndVelocity(double accel, double velocity);
 
     friend class PS10Controller;
@@ -53,6 +51,8 @@ public:
     PS10Axis* getAxis(int axisNo);
     asynStatus writeReadController();
     asynStatus writeReadController(const char *output, char *input, size_t maxChars, size_t *nread, double timeout);
+    asynStatus writeController();
+    asynStatus writeController(const char *output, double timeout);
 
     friend class PS10Axis;
 };

@@ -140,11 +140,36 @@ asynStatus PS10Controller::writeReadController(const char *output, char *input,
                                          strlen(output), input, maxChars, timeout,
                                          &nwrite, nread, &eomReason);
 
+     // We need to halt the communication because of the controller's command processing time, 20~40ms
     epicsThreadSleep(0.05);
 
     return status;
 }
 
+/** Writes a string to the controller.
+  * Calls writeController() with a default location of the string to write and a default timeout. */
+asynStatus PS10Controller::writeController()
+{
+    return writeController(outString_, DEFAULT_CONTROLLER_TIMEOUT);
+}
+
+/** Writes a string to the controller.
+  * \param[in] output The string to be written.
+  * \param[in] timeout Timeout before returning an error.*/
+asynStatus PS10Controller::writeController(const char *output, double timeout)
+{
+    size_t nwrite;
+    asynStatus status;
+    // const char *functionName="writeController";
+
+    status = pasynOctetSyncIO->write(pasynUserController_, output,
+                                     strlen(output), timeout, &nwrite);
+
+    // We need to halt the communication because of the controller's command processing time, 20~40ms
+    epicsThreadSleep(0.05);
+
+    return status ;
+}
 
 // These are the PS10Axis methods
 
@@ -180,38 +205,13 @@ PS10Axis::PS10Axis(PS10Controller *pC, int axisNo)
     if (status != asynSuccess)
         errorFlag = 1;
 
-    /*// Read the version string and the motor type
-    sprintf(pC_->outString_, "?VERSION");
-    status = pC_->writeReadController();
-    if (status != asynSuccess)
-        errorFlag = 1;
-    // Store version string
-    strcpy(versionStr_, pC_->inString_);
-    //std::cout << versionStr_ << std::endl;
+    // Read the version string and the motor type
     sprintf(pC_->outString_, "?MOTYPE%d", axisIndex_);
     status = pC_->writeReadController();
     if (status != asynSuccess)
         errorFlag = 1;
     // Store motor type
     motorType_ = atoi(&pC_->inString_[1]);
-
-    // Read the maximum positioning velocity
-    sprintf(pC_->outString_, "?PVEL%d", axisIndex_);
-    status = pC_->writeReadController();
-    if (status != asynSuccess)
-        errorFlag = 1;
-
-    // Read the micro step resolution
-    sprintf(pC_->outString_, "?MCSTP%d", axisIndex_);
-    status = pC_->writeReadController();
-    if (status != asynSuccess)
-        errorFlag = 1;
-
-    // Read the acceleration
-    sprintf(pC_->outString_, "?ACC%d", axisIndex_);
-    status = pC_->writeReadController();
-    if (status != asynSuccess)
-        errorFlag = 1;*/
 
     // What should happen if the controller doesn't respond?
     // For now put the controller in an error state
@@ -237,8 +237,7 @@ void PS10Axis::report(FILE *fp, int level)
     {
         fprintf(fp, "  axis %d\n", axisNo_);
         fprintf(fp, "  axis index %d\n", axisIndex_);
-        //fprintf(fp, "  version %s\n", versionStr_);
-        //fprintf(fp, "  motor type %d\n", motorType_);
+        fprintf(fp, "  motor type %d\n", motorType_);
     }
 
     // Call the base class method
@@ -280,8 +279,6 @@ asynStatus PS10Axis::move(double position, int relative, double minVelocity, dou
     status = pC_->writeController();
 
     sprintf(pC_->outString_, "PSET%d=%d", axisIndex_, NINT(position));
-    //printf("axisIndex %d \n", axisIndex_);
-    //printf("position %d \n", NINT(position));
     status = pC_->writeController();
 
     sprintf(pC_->outString_, "PGO%d", axisIndex_);
@@ -352,8 +349,7 @@ asynStatus PS10Axis::stop(double acceleration )
 }
 
 /** Polls the axis.
-  * This function reads the motor position, the limit status, the home status, the moving status,
-  * and the drive power-on status.
+  * This function reads the motor position and the moving status.
   * It calls setIntegerParam() and setDoubleParam() for each item that it polls,
   * and then calls callParamCallbacks() at the end.
   * \param[out] moving A flag that is set indicating that the axis is moving (true) or done (false). */
