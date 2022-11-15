@@ -2,7 +2,7 @@ dbLoadTemplate("motor.substitutions.ps10")
 
 ### USB com (serial1)
 # linux
-#drvAsynSerialPortConfigure("serial1", "/dev/ttyS0", 0, 0, 0)
+#drvAsynSerialPortConfigure("serial1", "/dev/ttyACM0", 0, 0, 0)
 # windows
 drvAsynSerialPortConfigure("serial1","COM4", 0, 0, 0)
 asynSetOption("serial1", -1, "baud", "9600")
