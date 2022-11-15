@@ -25,10 +25,14 @@ asynOctetSetOutputEos("serial1",0,"\r")
 #    motor port (will be created),
 #    asyn port (must already exist),
 #    num axes,
+#    List of SlaveIDs, use 0 for master
+#    string which represets the limit-activation,
+#		e.g. "ny" will deactivate the the limits for axis 1 and deactivate
+#		them for axis 2
 #    moving poll period (ms),
 #    idle poll period (ms),
 ###
-PS10CreateController("ps10_1", "serial1", 1, 100, 0)
+PS10CreateController("ps10_1", "serial1", 2, "0, 64", "ny", 100, 500)
 
 # Turn off asyn traces
 #asynSetTraceIOMask("serial1",0,0x0)
